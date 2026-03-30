@@ -7,6 +7,7 @@ export default {
     asar: true,
     name: 'Ekko Patcher',
     executableName: 'ekko-patcher',
+    icon: './assets/icon',
   },
   rebuildConfig: {},
   makers: [

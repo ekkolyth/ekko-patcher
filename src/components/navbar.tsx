@@ -10,7 +10,7 @@ export function Navbar() {
     <header className="border-b-2 border-border bg-card">
       <div className="container mx-auto px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-primary border-2 border-border flex items-center justify-center">
               <Cpu className="w-5 h-5 text-primary-foreground" />
             </div>
