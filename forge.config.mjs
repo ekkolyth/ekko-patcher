@@ -6,6 +6,7 @@ export default {
   packagerConfig: {
     asar: true,
     name: 'Ekko Patcher',
+    executableName: 'ekko-patcher',
   },
   rebuildConfig: {},
   makers: [
