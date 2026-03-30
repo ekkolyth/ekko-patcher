@@ -48,7 +48,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Make
-        run: npx --no-install electron-forge make --arch=${{ matrix.arch }}
+        run: node node_modules/@electron-forge/cli/dist/electron-forge.js make --arch=${{ matrix.arch }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v5
