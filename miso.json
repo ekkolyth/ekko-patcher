@@ -1,0 +1,6 @@
+{
+  "$schema": "https://misojs.dev/miso.schema.json",
+  "package-manager": "bun",
+  "name": "ekko-patcher",
+  "scripts": "./scripts"
+}
